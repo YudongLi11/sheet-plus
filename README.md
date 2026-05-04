@@ -1,6 +1,6 @@
-# Sheet Plus for Godot Engine 4.5+
+# Table Plus for Godot Engine 4.5+
 
-Sheet Plus is an extensible table and data-display UI plugin for Godot 4.5 and later. It is designed for previewing structured table data inside the editor and displaying it at runtime. The plugin is optimized for read-only display rather than in-place data editing, and it supports multiple cell types, theme customization, and interaction events.
+Table Plus is an extensible table and data-display UI plugin for Godot 4.5 and later. It is designed for previewing structured table data inside the editor and displaying it at runtime. The plugin is optimized for read-only display rather than in-place data editing, and it supports multiple cell types, theme customization, and interaction events.
 
 ## Highlights
 
@@ -21,13 +21,13 @@ Sheet Plus is an extensible table and data-display UI plugin for Godot 4.5 and l
 
 ## Quick Start
 
-1. Copy the `addons/sheet_plus/` folder into your Godot project's `addons/` directory (or clone the repository into the project).
-2. Enable the plugin in the Godot editor: Project → Project Settings → Plugins → enable Sheet Plus.
-3. Open the example scenes under `addons/sheet_plus/examples/` to see usage and configuration samples.
+1. Copy the `addons/table_plus/` folder into your Godot project's `addons/` directory (or clone the repository into the project).
+2. Enable the plugin in the Godot editor: Project → Project Settings → Plugins → enable Table Plus.
+3. Open the example scenes under `addons/table_plus/examples/` to see usage and configuration samples.
 
 ## Examples
 
-See the example scenes included in `addons/sheet_plus/examples/` for how to configure headers, provide preview data, and connect interaction events.
+See the example scenes included in `addons/table_plus/examples/` for how to configure headers, provide preview data, and connect interaction events.
 
 ## License
 
