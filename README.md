@@ -2,8 +2,6 @@
 
 **Languages:** English | [简体中文](README.zh-CN.md)
 
-This is the English README. The Chinese version mirrors the same section order so the two files can be kept in sync easily.
-
 Table Plus is an extensible table and data-display UI plugin for Godot. It is designed for read-only tables with editor preview support, runtime data binding, configurable headers, sorting, theming, and interaction events.
 
 This repository includes a custom `TablePlus` control, a reusable theme resource, and an example scene you can open immediately after enabling the plugin.
