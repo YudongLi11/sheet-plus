@@ -9,7 +9,7 @@ signal row_mouse_exited(row_index: int, row: TableRow)
 signal cell_clicked(row_index: int, column_index: int, cell: TableCell)
 
 
-const SHEET_ROOT: PackedScene = preload("uid://dnhalt8e54to5")
+const TABLE_ROOT: PackedScene = preload("uid://dnhalt8e54to5")
 
 
 ## 标题设置
@@ -281,7 +281,7 @@ func set_data(new_data: Array[Array]) -> void:
 
 
 func _init_table_root() -> void:
-	self.table_root = SHEET_ROOT.instantiate()
+	self.table_root = TABLE_ROOT.instantiate()
 	self.add_child(self.table_root)
 
 	self.resized.connect(func(): self.table_root.set_resize(self.size))

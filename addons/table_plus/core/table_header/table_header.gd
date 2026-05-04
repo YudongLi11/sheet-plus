@@ -6,7 +6,7 @@ extends PanelContainer
 signal header_cell_sorted(cell_id: String, sort_state: TableGlobals.SortState)
 
 
-const SHEET_HEADER_CELL = preload("uid://stchjotskrjc")
+const TABLE_HEADER_CELL = preload("uid://stchjotskrjc")
 
 
 var _current_theme: TablePlusTheme = null
@@ -21,7 +21,7 @@ func _ready() -> void:
 func add_cell(cell_resource: TableHeaderCellResource) -> void:
 	if cell_resource == null:
 		return
-	var cell: TableHeaderCell = SHEET_HEADER_CELL.instantiate()
+	var cell: TableHeaderCell = TABLE_HEADER_CELL.instantiate()
 	cell.initialize(cell_resource, %CellsHBoxContainer)
 	cell.update_theme(self._current_theme)
 	cell.clicked.connect(self._on_cell_clicked)

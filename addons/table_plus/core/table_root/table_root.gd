@@ -28,7 +28,7 @@ enum InteractionMode {
 }
 
 
-const SHEET_ROW = preload("uid://c1x2b8pmjaeep")
+const TABLE_ROW = preload("uid://c1x2b8pmjaeep")
 
 
 ## 内容
@@ -405,7 +405,7 @@ func _populate_rows(source_data: Array[Array]) -> void:
 	(func():
 		var row_index: int = 0
 		for row_data: Array in source_data:
-			var row: TableRow = SHEET_ROW.instantiate()
+			var row: TableRow = TABLE_ROW.instantiate()
 			row.custom_minimum_size.y = self.row_height
 			row.update_vertical_separators(%TableHeader.get_separators(), self.rows_vertical_separators_visible)
 			var horizontal_separator_visible: bool = self.rows_horizontal_separators_visible
